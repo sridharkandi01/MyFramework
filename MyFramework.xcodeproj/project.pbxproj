@@ -11,6 +11,7 @@
 		12B024642C1C5CB5009B4DB9 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B024592C1C5CB4009B4DB9 /* MyFramework.framework */; };
 		12B024692C1C5CB5009B4DB9 /* MyFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B024682C1C5CB5009B4DB9 /* MyFrameworkTests.swift */; };
 		12B0246A2C1C5CB5009B4DB9 /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B0245C2C1C5CB4009B4DB9 /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12B024742C1C5D05009B4DB9 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B024732C1C5D05009B4DB9 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		12B0245D2C1C5CB4009B4DB9 /* MyFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyFramework.docc; sourceTree = "<group>"; };
 		12B024632C1C5CB5009B4DB9 /* MyFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B024682C1C5CB5009B4DB9 /* MyFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkTests.swift; sourceTree = "<group>"; };
+		12B024732C1C5D05009B4DB9 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				12B0245C2C1C5CB4009B4DB9 /* MyFramework.h */,
+				12B024732C1C5D05009B4DB9 /* APIClient.swift */,
 				12B0245D2C1C5CB4009B4DB9 /* MyFramework.docc */,
 			);
 			path = MyFramework;
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B0245E2C1C5CB4009B4DB9 /* MyFramework.docc in Sources */,
+				12B024742C1C5D05009B4DB9 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 		12B024712C1C5CB5009B4DB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -424,6 +429,7 @@
 		12B024722C1C5CB5009B4DB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
